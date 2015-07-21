@@ -4,7 +4,7 @@
 
 ### 1.使用CSS实现两列等高的自适应布局
 
-![使用CSS实现两列等高的自适应布局](https://github.com/ifci/front-ladder/blob/master/2015/7/20/1.gif)
+![使用CSS实现两列等高的自适应布局](https://raw.githubusercontent.com/ifci/front-ladder/master/2015/7/20/1.gif)
 
 ### 2. 规则：
 - 一周发布一次，周日12.00之前截止。
