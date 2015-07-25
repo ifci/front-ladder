@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        div{clear: both;}
+        .deo{height:50px;}
+        span{display:block;width:50px;height:100%;float: left;}
+        .test{background: #ccc;width:50px;}
+        .test2{background: #000;width:50px;}
+        .deo1{ -moz-box-orient: horizontal;box-orient: horizontal;-webkit-box-orient: horizontal;height:50px;}
+    </style>
+</head>
+<body>
+    <div class="deo">
+        <span class="test">
+        </span>
+        <span class="test2">
+        </span>
+    </div>
+    <hr/>
+    <div class="deo1" style="background: #ddd;">
+
+        <div class="test2" style="float: right;height:50px;">
+
+        </div>
+    </div>
+    <div class="deo">
+        <div class="test" style="display: table-cell;height:50px;">
+
+        </div>
+        <div class="test2" style="display: table-cell">
+
+        </div>
+    </div>
+    <hr/>
+<table style="clear: both">
+    <tr><td style="background: #cccccc;height: 50px;width: 50px;"></td><td style="background:#000;"></td></tr>
+</table>
+</body>
+</html>
